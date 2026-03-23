@@ -1,0 +1,22 @@
+packages:
+  "framer-motion": "For high-end smooth page transitions and scroll reveals"
+  "react-hook-form": "Form state management for bookings and inquiries"
+  "@hookform/resolvers": "Zod schema validation for forms"
+  "zod": "Type-safe form validation schemas"
+  "lucide-react": "Beautiful consistent iconography"
+  "date-fns": "Date formatting for the booking system"
+  "clsx": "Utility for conditionally joining class names"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+images:
+  - path: "artifacts/hotel-website/public/images/logo.png"
+    description: "Minimal elegant geometric luxury hotel logo mark in gold on transparent background, sophisticated outline"
+    aspect_ratio: "1:1"
+  - path: "artifacts/hotel-website/public/images/pattern.png"
+    description: "Seamless abstract geometric luxury background pattern with subtle thin gold lines on deep black, high resolution"
+    aspect_ratio: "16:9"
+
+notes:
+  - "App supports bilingual AR (primary RTL) and EN (secondary LTR)."
+  - "All mutations invalidate queries and show toast notifications."
+  - "Uses generated API hooks from @workspace/api-client-react."
