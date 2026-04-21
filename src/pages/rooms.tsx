@@ -72,21 +72,21 @@ export default function Rooms() {
         "/room1.jpg", // ✔ لو الصورة في public
       ],
     },
-    {
-  id: 3,
-  name: "Luxury Suite",
-  category: "deluxe",
-  price: 1200,
-  rating: 4.9,
-  popular: true,
-  description: "جناح فاخر جدًا يحتوي على غرفة نوم وصالة وإطلالة بانورامية مميزة، مناسب للإقامة الملكية.",
-  amenities: ["wifi", "tv", "coffee", "ac", "parking"],
-  images: [
-    "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
-    "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800",
-    "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
-  ]
-}
+//     {
+//   id: 3,
+//   name: "Luxury Suite",
+//   category: "deluxe",
+//   price: 1200,
+//   rating: 4.9,
+//   popular: true,
+//   description: "جناح فاخر جدًا يحتوي على غرفة نوم وصالة وإطلالة بانورامية مميزة، مناسب للإقامة الملكية.",
+//   amenities: ["wifi", "tv", "coffee", "ac", "parking"],
+//   images: [
+//     "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800",
+//     "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800",
+//     "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800"
+//   ]
+// }
   ];
 
   const categories = ["all", "standard", "deluxe"];
