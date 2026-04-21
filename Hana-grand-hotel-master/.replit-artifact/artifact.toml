@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "فندق الفخامة - Luxury Hotel"
+version = "1.0.0"
+id = "artifacts/hotel-website"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+localPort = 18503
+name = "web"
+paths = ["/"]
+
+[services.development]
+run = "pnpm --filter @workspace/hotel-website run dev"
+
+[services.env]
+PORT = "18503"
+BASE_PATH = "/"
+
+[services.production]
+build = ["pnpm", "--filter", "@workspace/hotel-website", "run", "build"]
+publicDir = "artifacts/hotel-website/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
